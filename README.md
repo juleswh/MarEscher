@@ -8,8 +8,8 @@ MarEscher est un l'ogiciel libre d'aide à l'activité maraîchère développé 
 
 ## Installation velue pour développeurs
 
-- Sur votre système linux (pour windows et mac, installez nodejs et npm avec votre gestionaire de paquets préféré.]
-- Après avoir cloné ce dépot, ouvrez un terminal et placez-vous dedans et installer Electron avec la commande suivante :
+- Sur votre système linux (pour windows et mac vous trouverez des infos sur le site d'Electron), installez nodejs et npm avec votre gestionaire de paquets préféré.
+- Après avoir cloné ce dépot, ouvrez un terminal dans le dossier de MarEscher puis installer Electron avec la commande suivante :
 ```sh
 npm install electron --save-dev --save-exact
 ```
@@ -19,7 +19,7 @@ npm install electron --save-dev --save-exact
 ```
 - Faites-vous(nous) plaisir en développant de nouvelles fonctionnalités !
 
-Pour créer les binaires pour toutes les plateformes (windows, macOS, linux 32/64 bits, ARM...), installez electron-packager depuis npm. Puis, dans le dossier du projet tapez :
+Pour créer les binaires pour toutes les plateformes (windows, macOS, linux 32/64 bits, ARM...), installez electron-packager depuis npm. Puis, dans le dossier du projet lancez la commande :
 ```sh
 electron-packager . --all --name "MarEscher" --version "0.1"
 ```
